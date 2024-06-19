@@ -1,9 +1,8 @@
 def quick_sort(array):
     def cut(array, bottom, upper):
         pivot = array[upper]
-        #smaller element index
+        # smaller element index
         i = bottom - 1
-        # 
         for j in range(bottom, upper):
             if array[j] <= pivot:
                 i += 1
